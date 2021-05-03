@@ -40,7 +40,7 @@ class MyAdapter (val context: Context, var dataList: ArrayList<CEOModel.MangaMod
         holder.tvEnd.text = item?.endpoint.toString()
         holder.tvChapter.text = item?.chapter.toString()
         if (position % 2 == 0 ) {
-            holder.llmain.setBackgroundColor(ContextCompat.getColor(context , R.color.teal_200))
+            holder.llmain.setBackgroundColor(ContextCompat.getColor(context , R.color.brown))
         }else {
             holder.llmain.setBackgroundColor(ContextCompat.getColor(context , R.color.white))
         }
